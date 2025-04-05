@@ -1,0 +1,57 @@
+body
+{
+    background-image: url(backround\ img.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 2000px;
+    
+
+}
+.container {
+    display: flex;               
+    align-items: center;         
+    justify-content: flex-start; 
+  }
+.navtag
+{
+    text-align:left;
+    
+  
+
+}
+.navtag ul {
+    display: flex;              
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+.navtag a 
+  {
+    font-size: 40px;
+
+    margin-left: 30px;
+    color: white;
+    
+    padding-right: 10px;
+    text-align: top;
+    text-decoration: none;
+   
+    
+  
+    
+  }
+.navtag a:hover
+{
+    color: hsl(124, 98%, 54%);
+
+}
+.logo1
+{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 3px solid black; 
+
+}
+  

@@ -1,0 +1,29 @@
+
+.album-container {
+    display: flex;                   
+    justify-content: center;        
+    align-items: center;             
+    height: 100vh;                 
+    padding: 20px;
+  }
+  
+  .album {
+    display: grid;                   
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); 
+    gap: 10px;                       
+    width: 80%;                     
+    max-width: 1200px;                
+  }
+  
+  .photo img {
+    width: 100%;                      
+    height: auto;                 
+    border-radius: 8px;               
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);  
+    transition: transform 0.3s ease;  
+  }
+  
+  .photo img:hover {
+    transform: scale(1.1);            
+  }
+  
